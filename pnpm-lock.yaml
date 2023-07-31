@@ -8,6 +8,9 @@ dependencies:
   '@vueuse/core':
     specifier: 10.3.0
     version: 10.3.0(vue@3.3.4)
+  font-proxima-nova-css:
+    specifier: 1.0.4
+    version: 1.0.4
   vue:
     specifier: 3.3.4
     version: 3.3.4
@@ -28,9 +31,6 @@ devDependencies:
   '@unocss/eslint-config':
     specifier: 0.54.0
     version: 0.54.0(eslint@8.46.0)(typescript@5.1.6)
-  '@unocss/reset':
-    specifier: 0.54.0
-    version: 0.54.0
   '@vitejs/plugin-vue':
     specifier: 4.2.3
     version: 4.2.3(vite@4.4.7)(vue@3.3.4)
@@ -1878,7 +1878,7 @@ packages:
     dependencies:
       debug: 3.2.7
       is-core-module: 2.12.1
-      resolve: 1.22.3
+      resolve: 1.22.2
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -2359,6 +2359,10 @@ packages:
   /flatted@3.2.7:
     resolution: {integrity: sha512-5nqDSxl8nn5BSNxyR3n4I6eDmbolI6WT+QqR547RwxQapgjQBmtktdP+HTBb/a/zLsbzERTONyUB5pefh5TtjQ==}
     dev: true
+
+  /font-proxima-nova-css@1.0.4:
+    resolution: {integrity: sha512-AAjr20MlE69bawDgFaCI6qMSk/zODuEtNLQUVxFx7JH7cCcJJhT4IfLZGFWFmHNtk2vOHVM3KyJm8hnwm6w3nw==}
+    dev: false
 
   /foreground-child@3.1.1:
     resolution: {integrity: sha512-TMKDUnIte6bfb5nWv7V/caI169OHgvwjb7V4WkeUvbQQdjr5rWKqHFiKWb/fcOwB+CzBT+qbWjvj+DVwRskpIg==}
