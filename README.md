@@ -1,4 +1,4 @@
-Opinionated [Vue](https://vuejs.org) and [Vite](https://vitejs.dev) Starter
+# Opinionated [Vue](https://vuejs.org) and [Vite](https://vitejs.dev) Starter
 
 ## IDE
 
