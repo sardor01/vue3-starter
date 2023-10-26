@@ -1,5 +1,5 @@
 {
-  "extends": ["@antfu", "@unocss", "plugin:prettier/recommended"],
+  "extends": ["@antfu/eslint-config-vue", "@unocss", "plugin:prettier/recommended"],
   "ignorePatterns": ["auto-imports.d.ts", "components.d.ts", "typed-router.d.ts"],
   "rules": {
     "no-console": "warn",
