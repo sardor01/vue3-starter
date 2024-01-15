@@ -1,5 +1,5 @@
 {
-  "extends": ["@sarast", "@unocss", "plugin:prettier/recommended"],
+  "extends": ["@sarast", "plugin:prettier/recommended"],
   "ignorePatterns": ["auto-imports.d.ts", "components.d.ts", "typed-router.d.ts"],
   "rules": {
     "no-console": "warn",
