@@ -1,4 +1,4 @@
-import { defineConfig, presetAttributify, presetIcons, presetUno, presetWebFonts } from 'unocss';
+import { defineConfig, presetAttributify, presetIcons, presetUno } from 'unocss';
 
 export default defineConfig({
   presets: [
@@ -7,13 +7,6 @@ export default defineConfig({
     presetIcons({
       scale: 1.2,
       warn: true,
-    }),
-    presetWebFonts({
-      provider: 'none',
-      fonts: {
-        sans: 'Proxima Nova',
-        garamond: 'Garamond',
-      },
     }),
   ],
   theme: {
