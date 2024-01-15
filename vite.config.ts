@@ -5,6 +5,7 @@ import { VueRouterAutoImports } from 'unplugin-vue-router';
 import VueRouter from 'unplugin-vue-router/vite';
 import Components from 'unplugin-vue-components/vite';
 import AutoImport from 'unplugin-auto-import/vite';
+import Icons from 'unplugin-icons/vite';
 
 export default defineConfig({
   resolve: {
@@ -21,5 +22,6 @@ export default defineConfig({
       vueTemplate: true,
     }),
     Components(),
+    Icons({ compiler: 'vue3' }),
   ],
 });
